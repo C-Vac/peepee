@@ -37,5 +37,8 @@ for commit_time in penis_times:
 # Reset system time and push
 os.unsetenv('GIT_AUTHOR_DATE')
 os.unsetenv('GIT_COMMITTER_DATE')
-repo.git.push()
+
+origin = repo.remote('origin')
+origin.push('master')
+
 
