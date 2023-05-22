@@ -11,7 +11,7 @@ repo = git.Repo(repo_dir)
 # Define the penis shape with commit times
 penis_times = [
     datetime(2023, 5, 22, 12, 0),  # Tip
-    datetime(2023, 5, 21, 12, 0), 
+    datetime(2023, 5, 21, 12, 0),
     datetime(2023, 5, 20, 12, 0),
     datetime(2023, 5, 19, 11, 0), datetime(2023, 5, 19, 13, 0), # Shaft
     datetime(2023, 5, 18, 11, 0), datetime(2023, 5, 18, 13, 0),
@@ -32,7 +32,7 @@ for commit_time in penis_times:
     os.environ['GIT_COMMITTER_DATE'] = commit_time.isoformat()
     
     repo.git.commit('-m', 'Phallic commit')
-    time.sleep(1)  # Delay for visualization
+    # time.sleep(1)  # Delay for visualization
 
 # Reset system time and push
 os.unsetenv('GIT_AUTHOR_DATE')
