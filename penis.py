@@ -4,8 +4,9 @@ import time
 from datetime import datetime, timedelta
 
 # Initialize Git repo
-repo_dir = 'path/to/your/repo'
-repo = git.Repo.init(repo_dir)
+repo_dir = '.'
+repo = git.Repo(repo_dir)
+# repo = git.Repo.init(repo_dir)
 
 # Define the penis shape with commit times
 penis_times = [
@@ -37,3 +38,4 @@ for commit_time in penis_times:
 os.unsetenv('GIT_AUTHOR_DATE')
 os.unsetenv('GIT_COMMITTER_DATE')
 repo.git.push()
+
