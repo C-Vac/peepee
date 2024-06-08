@@ -10,14 +10,33 @@ repo = git.Repo(repo_dir)
 
 # Define the penis shape with commit times
 penis_times = [
-    datetime(2024, 6, 22, 12, 0),  # Tip
-    datetime(2024, 6, 21, 12, 0),
-    datetime(2024, 6, 20, 12, 0),
-    datetime(2024, 6, 19, 11, 0), datetime(2024, 6, 19, 13, 0), # Shaft
-    datetime(2024, 6, 18, 11, 0), datetime(2024, 6, 18, 13, 0),
-    datetime(2024, 6, 17, 11, 30), datetime(2024, 6, 17, 12, 30),
-    datetime(2024, 6, 16, 12, 0), # Base
-    datetime(2024, 6, 15, 12, 0), datetime(2024, 6, 15, 12, 0)  # Balls
+    datetime(2024, 6, 8, 12, 0),
+    datetime(2024, 6, 15, 12, 0),
+    datetime(2024, 6, 22, 12, 0),
+    datetime(2024, 6, 28, 11, 0),
+    datetime(2024, 6, 30, 13, 0),
+    datetime(2024, 6, 23, 11, 0),
+    datetime(2024, 6, 16, 13, 0),
+    datetime(2024, 6, 9, 11, 30),
+    datetime(2024, 6, 2, 12, 30),
+    datetime(2024, 5, 27, 12, 0),
+    datetime(2024, 5, 28, 12, 0),
+    datetime(2024, 5, 29, 12, 0),
+    datetime(2024, 5, 30, 12, 0),
+    datetime(2024, 5, 31, 12, 0),
+    datetime(2024, 5, 26, 12, 0),
+    datetime(2024, 7, 4, 12, 0),
+    datetime(2024, 7, 18, 12, 0),
+    datetime(2024, 7, 25, 12, 0),
+    datetime(2024, 7, 28, 12, 0),
+    datetime(2024, 7, 21, 12, 0),
+    datetime(2024, 7, 14, 12, 0),
+    datetime(2024, 7, 7, 12, 0),
+    datetime(2024, 7, 30, 12, 0),
+    datetime(2024, 8, 1, 12, 0),
+    datetime(2024, 8, 5, 12, 0),
+    datetime(2024, 8, 6, 12, 0),
+    datetime(2024, 8, 7, 12, 0)
 ]
 
 # Commit and push with adjusted times
