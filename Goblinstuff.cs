@@ -1,0 +1,6 @@
+namespace TheStreets;
+
+class Goblinstuff {
+    
+
+}
